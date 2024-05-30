@@ -1,0 +1,561 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Poppins", "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* A partir de aquí introduce tus estilos */
+
+body {
+    /* background-color: #FABADA; */
+}
+
+/* div {
+    width: 300px;
+    height: 300px;
+    background-image: url(/images/arrows/chevron-left-gray.svg);
+} */
+
+.background-gray {
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    background-color: #e9e9e9;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.div-meteorologia {
+    padding-right: 10px;
+    border-right: 1px solid #c5c5c5;
+    color: #535252;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.links-container a {
+    color: #747474;
+    font-weight: 600;
+    padding-right: 10px;
+    border-right: 1px solid #c5c5c5;
+}
+
+.links-content {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+nav {
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #06AEEF;
+}
+
+.search-btn {
+    display: flex;
+    align-items: center;
+}
+
+header input {
+    width: 500px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+header button {
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    border: 0;
+    position: relative;
+    left: -50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+
+.map-img {
+    width: 90%;
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-icon {
+    margin-right: 10px;
+}
+
+#first-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFFFFF;
+}
+
+.days-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+
+.days-elements {
+    margin: 20px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.days-elements h5 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #04AEEF;
+}
+
+.days-elements h4 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.days-container hr {
+    margin-left: 10px;
+    border-color: red;
+    width: 90%;
+}
+
+.fecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #9AA1B0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.flechas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    padding-bottom: 30px;
+}
+
+#second-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.sections-tittles {
+    width: 60%;
+    margin: 0px 0px 10px -100px;
+    padding: 60px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divisor {
+    margin: 0px 310px;
+    background-color: #04AEEF;
+    width: 70%;
+    height: 4px;
+}
+
+.temporada-container {
+    margin: 5px 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.estaciones-de-esqui,
+.intensidad-de-gripe {
+    background-color: #ddd;
+    margin-right: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intensidad-de-gripe {
+    display: flex;
+    flex-direction: row;
+}
+
+.estaciones-secciones,
+.gripe-secciones {
+    background-color: #fff;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.temporada-tittle {
+    font-weight: bold;
+}
+
+.estaciones,
+.comunidades {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.noticias-container {
+    margin: 5px 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.noticia-one-container,
+.noticia-two-container,
+.noticia-three-container {
+    margin: 5px 5px;
+    padding: 10px 10px;
+    width: 800px;
+    height: 400px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 3%;
+    text-align: left;
+    border: 1px solid lightgray;
+    flex-wrap: wrap;
+}
+
+.noticia-one-container img,
+.noticias-two-container img,
+.noticia-three-container img {
+    margin: -10px;
+    padding: 0px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.pie-noticia {
+    margin: 6px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.noticias-container-two {
+    margin: 5px 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.noticia-four-container,
+.noticia-five-container,
+.noticia-six-container,
+.noticia-seven-container {
+    margin: 5px 5px;
+    padding: 10px 10px;
+    width: 315px;
+    height: 350px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 3%;
+    text-align: left;
+    border: 1px solid lightgray;
+}
+
+.noticia-four-container p,
+.noticia-five-container p,
+.noticia-six-container p,
+.noticia-seven-container p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.noticia-four-container h5,
+.noticia-five-container h5,
+.noticia-six-container h5,
+.noticia-seven-container h5 {
+    margin: 10px 0px;
+    font-weight: 700;
+    color: #8A95A4;
+}
+
+.noticia-seven-container {
+    margin: -10px 10px;
+    height: 350px;
+}
+
+.pie-noticia p {
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    font-size: 14px;
+    margin: -10px 0px;
+}
+
+.img-noticia-seven {
+    margin: -10px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.section-four {
+    background-color: #f4f4f5;
+}
+
+.title-section-four {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px 300px;
+    padding: 30px 0px;
+}
+
+.apdos-section-four {
+    width: 85%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.meteorologia-four,
+.cambio-climatico,
+.planeta,
+.viajes {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.meteorologia-four a,
+.cambio-climatico a,
+.planeta a,
+.viajes a {
+    padding: 10px 0px;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.meteorologia-four h5,
+.cambio-climatico h5,
+.planeta h5,
+.viajes h5 {
+    padding-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #04AEEF;
+}
+
+footer p {
+    color: white;
+}
+
+.descarga-nuestra-app {
+    width: 90%;
+    margin-left: 80px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.descarga-nuestra-app img {
+    margin-top: 20px;
+}
+
+.widget-btn {
+    margin-top: 30px;
+    padding: 10px 5px;
+    background-color: #04AEEF;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.divisor-footer {
+    background-color: #6dc1e2;
+    height: 1px;
+}
+
+.rrss-icons {
+    margin: 0px 8px;
+}
+
+.logos-footer {
+    width: 90%;
+    margin-left: 230px;
+    padding: 20px 50px;
+    display: flex;
+    gap: 10px
+}
+
+.links-footer,
+.links-footer-two {
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    width: 80%;
+    margin-left: 178px;
+    padding: 20px 50px 20px 30px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.links-footer-two {
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    width: 100%;
+    margin-left: 250px;
+    padding: 20px 50px 20px 30px;
+}
+
+.container {
+    padding: 25px 0px;
+    gap: 40px;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+}
+
+.caja {
+    padding: 16px 12px;
+    background-color: #eeeeee;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.enlace {
+    text-align: center;
+}
+
+.contenido {
+    margin: 20px 0px;
+    display: flex;
+    gap: 40px;
+}
+
+.caja-contenido {
+    padding: 20px 8px;
+    background-color: white;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: #747474;
+}
+
+.caja-contenido h5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.div-contenido {
+    margin: 10px 0px;
+    border: 1px solid #dddddd;
+}
+
+.div-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido-dos {
+    margin: 20px 0px;
+
+}
+
+.caja-contenido-dos {
+    padding: 20px 8px;
+    background-color: white;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: #747474;
+}
+
+.caja-dos {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+.comunidad {
+    padding: 5px 5px;
+    flex: 1;
+    gap: 5px;
+}
+
+.color {
+    color: white;
+    background-color: #4d2072;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>El Tiempo</title>
+</head>
+
+<body>
+    <header>
+        <div class="background-gray">
+            <div class="div-meteorologia">
+                <p><strong><i>Meteorología y Sostenibilidad</i></strong></p>
+            </div>
+
+            <div class="links-container">
+                <div class="links-content">
+                    <p>Es noticia:</p>
+                    <a href="#">¿Ola de frío?</a>
+                    <a href="#">Va a nevar</a>
+                    <a href="#">Borrasca y lluvia</a>
+                    <a href="#">Lluvia de estrellas</a>
+                    <a href="#">Luna llena abril</a>
+                    <a href="#">Auroras boreales rosas</a>
+                    <a href="#">Luna en escorpio</a>
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="nav-menu">
+            <div>
+                <img src="/images/logo-eltiempo.svg" alt="Logo Web de El Tiempo" width="150px">
+            </div>
+
+            <div class="search-btn">
+                <div>
+                    <form action="#">
+                        <label>
+                            <input type="search" name="search" placeholder="El tiempo en...">
+                        </label>
+                    </form>
+                </div>
+
+                <div>
+                    <button type=search><img src="/images/icons/icon-lupa.svg" alt="Icono de lupa"></button>
+                </div>
+            </div>
+
+            <div class="menu">
+                <img src="/images/icons/icono-menu-hamburguesa.svg" alt="Icono de Menu">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="first-section">
+            <div class="flechas">
+                <img src="/images/arrows/flecha-izquierda-azul.png" height="40">
+            </div>
+
+            <div class="days-container">
+                <div class="days-elements">
+                    <h4>Hoy</h4>
+                    <h5>Ahora</h5>
+                    <img src="/images/arrows/flecha-abajo-azul.png" height="40">
+                </div>
+                <div class="fecha">
+                    <p>23 ABR</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="days-container">
+                <div class="days-elements">
+                    <h4>Mañana</h4>
+                </div>
+                <div class="fecha">
+                    <p>24 ABR</p>
+                </div>
+            </div>
+
+            <div class="days-container">
+                <div class="days-elements">
+                    <h4>Jueves</h4>
+                </div>
+                <div class="fecha">
+                    <p>25 ABR</p>
+                </div>
+            </div>
+
+            <div class="days-container">
+                <div class="days-elements">
+                    <h4>Viernes</h4>
+                </div>
+                <div class="fecha">
+                    <p>26 ABR</p>
+                </div>
+            </div>
+
+            <div class="days-container">
+                <div class="days-elements">
+                    <h4>Sábado</h4>
+                </div>
+                <div class="fecha">
+                    <p>27 ABR</p>
+                </div>
+            </div>
+
+            <div class="days-container">
+                <div class="days-elements">
+                    <h4>Domingo</h4>
+                </div>
+                <div class="fecha">
+                    <p>28 ABR</p>
+                </div>
+            </div>
+
+            <div class="days-container">
+                <div class="days-elements">
+                    <h4>Lunes</h4>
+                </div>
+                <div class="fecha">
+                    <p>29 ABR</p>
+                </div>
+            </div>
+
+            <img src="/images/arrows/flecha-azul-derecha.png" height="40">
+
+        </section>
+
+        <div class="map-img">
+            <img src="/images/mapa-eltiempo.png" width="800px">
+        </div>
+
+        <section>
+            <div class="sections-tittles">
+                <h3>Secciones de temporada</h3>
+            </div>
+            <div class="divisor"></div>
+
+            <!-- <div class="temporada-container">
+                <div class="estaciones-de-esqui">
+                    <div class="temporada-tittle">Estaciones de Esquí</div>
+                    <div class="estaciones-secciones">
+                        <div class="estaciones">Sierra Nevada</div>
+                        <div class="estaciones">Larra-Belagua</div>
+                    </div>
+                </div>
+                <div class="intensidad-de-gripe">
+                    <div class="temporada-tittle">Intensidad de Gripe</div>
+
+                    <div class="gripe-secciones">
+                        <div class="comunidades">Comunidad Valenciana</div>
+                        <input type="text" value="ALTO">
+                        <div class="comunidades">Comunidad Valenciana</div>
+                        <input type="text" value="ALTO">
+                        <div class="comunidades">Comunidad Valenciana</div>
+                        <input type="text" value="ALTO">
+                    </div>
+                    <div class="gripe-secciones">
+                        <div class="comunidades">Comunidad Valenciana</div>
+                        <input type="text" value="ALTO">
+                        <div class="comunidades">Comunidad Valenciana</div>
+                        <input type="text" value="ALTO">
+                        <div class="comunidades">Comunidad Valenciana</div>
+                        <input type="text" value="ALTO">
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="container">
+                <div class="caja">
+                    <div class="title">
+                        <h3>Estaciones de esquí</h3>
+                    </div>
+                    <div class="contenido">
+                        <div class="caja-contenido">
+                            <h5>Sierra Nevada</h5>
+                            <div class="div-contenido"></div>
+                            <div class="div-icons">
+                                <img src="/images/icons/icon-check.svg" alt="Icono de check">
+                                <p>Estado: <strong>Abierta</strong></p>
+                            </div>
+                            <div class="div-icons">
+                                <img src="/images/icons/icon-nieve-azul.svg" alt="Icono de check">
+                                <p>Nieve: <strong>Primavera</strong></p>
+                            </div>
+                            <div class="div-icons">
+                                <img src="/images/icons/icon-esquiador-azul.svg" alt="Icono de check">
+                                <p>Pistas: <strong>25/138</strong></p>
+                            </div>
+                        </div>
+
+
+                    <div class="caja-contenido">
+                        <h5>Larra-Belagua</h5>
+                        <div class="div-contenido"></div>
+                        <div class="div-icons">
+                            <img src="/images/icons/icon-cerrar-rojo.svg" alt="Icono de check">
+                        <p>Estado: <strong>Cerrada</strong></p>
+                        </div>
+                        <div class="div-icons">
+                            <img src="/images/icons/icon-nieve-azul.svg" alt="Icono de check">
+                        <p>Nieve: <strong>Polvo</strong></p>
+                        </div>
+                        <div class="div-icons">
+                            <img src="/images/icons/icon-esquiador-azul.svg" alt="Icono de check">
+                        <p>Pistas: <strong>0/14</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="enlace">
+                    <a href="#">Visita la sección de esquí</a>
+                </div>
+            </div>
+
+            <div class="caja">
+                <div class="title">
+                    <h3>Intensidad de gripe</h3>
+                </div>
+                <div class="contenido-dos">
+                    <div class="caja-contenido-dos">
+                        <div class="caja-dos">
+                            <div class="comunidad">
+                                <h5>Comunidad Valenciana</h5>
+                                <p class="color">ALTO</p>
+                            </div>
+                            <div class="comunidad">
+                                <h5>Aragón</h5>
+                                <p class="color">ALTO</p>
+                            </div>
+                            <div class="comunidad">
+                                <h5>Murcia</h5>
+                                <p class="color">ALTO</p>
+                            </div>
+                        </div>
+                        <div class="caja-dos">
+                            <div class="comunidad">
+                                <h5>Melilla</h5>
+                                <p class="color">ALTO</p>
+                            </div>
+                            <div class="comunidad">
+                                <H5>Madrid</H5>
+                                <p class="color">ALTO</p>
+                            </div>
+                            <div class="comunidad">
+                                <h5>Catalunya</h5>
+                                <p class="color">ALTO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="enlace">
+                    <a href="#">Visita la sección de esquí</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="sections-tittles">
+                <h3>Noticias destacadas</h3>
+            </div>
+            <div class="divisor"></div>
+
+            <div class="noticias-container">
+                <div class="noticia-one-container">
+                    <div class="img-noticia-one">
+                        <img src="/images/articulos/articulo-mapa.jpg" width="423px">
+                    </div>
+
+                    <div class="noticia-txt">
+                        <h5>METEOROLOGÍA</h5>
+                        <p>Más frío en Logroño que en Moscú: el aire ártico "conquista" España. ¿Hasta cuándo?</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Marta Almarcha </p>
+                        <p> | Hoy </p>
+                    </div>
+                </div>
+
+                <div class="noticia-two-container">
+                    <div class="noticia-txt">
+                        <h5>METEOROLOGÍA</h5>
+                        <p>Vuelve la lluvia a España por una borrasca atlántica: ¿dónde y cuando va a llover?</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Marta Almarcha </p>
+                        <p> | Hoy </p>
+                    </div>
+
+                    <div class="noticia-txt">
+                        <h5>METEOROLOGÍA</h5>
+                        <p>La nieve vuelve a España y se activan avisos amarillos: ¿Dónde va a nevar?</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Marta Almarcha </p>
+                        <p> | Hoy </p>
+                    </div>
+
+                    <div class="noticia-txt">
+                        <h5>METEOROLOGÍA</h5>
+                        <p>El tiempo este puente de Mayo 2024: ¿va a llover?</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Marta Gómez </p>
+                        <p> | Hoy </p>
+                    </div>
+                </div>
+
+                <div class="noticia-three-container">
+                    <div class="img-noticia-three">
+                        <img src="/images/articulos/articulo-moto.jpg" width="423px">
+                    </div>
+
+                    <div class="noticia-txt">
+                        <h5>SOSTENIBILIDAD</h5>
+                        <p>Recorriendo kilómetros: guía para tu próximo viaje en moto 0 emisiones</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Ofrecido por</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="noticias-container-two">
+                <div class="noticia-four-container">
+                    <div class="noticia-txt">
+                        <h5>SOSTENIBILIDAD</h5>
+                        <p>Doñana recupera su esplendor gracias a las lluvias</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Pablo Ramos </p>
+                        <p> | Hoy </p>
+                    </div>
+
+                    <div class="noticia-txt">
+                        <h5>SOSTENIBILIDAD</h5>
+                        <p>Los mejores retiros de yoga en España</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Laura Opazo </p>
+                        <p> | Hoy </p>
+                    </div>
+                </div>
+
+                <div class="noticia-five-container">
+                    <div class="noticia-txt">
+                        <h5>METEOROLOGÍA</h5>
+                        <p>¿Una ola de frío en pleno abril? Aclaramos dudas y ponemos fecha fin al episodio</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Marta Almarcha </p>
+                        <p> | Hoy </p>
+                    </div>
+
+                    <div class="noticia-txt">
+                        <h5>METEOROLOGÍA</h5>
+                        <p>Llega la luna rosa: ¿por qué se llama así a la luna llena de abril?</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Redacción </p>
+                        <p> | Ayer </p>
+                    </div>
+                </div>
+
+                <div class="noticia-six-container">
+                    <div class="noticia-txt">
+                        <h5>METEOROLOGÍA</h5>
+                        <p>El tiempo en mayo 2024: más cálido de lo normal en España, pero ¿lloverá más?</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Mar Gómez </p>
+                        <p> | Hoy </p>
+                    </div>
+
+                    <div class="noticia-txt">
+                        <h5>TIEMPO LIBRE</h5>
+                        <p>Nuevo récord de ola más grande jamás surfeada: 28,57 metros</p>
+                    </div>
+
+                    <div class="pie-noticia">
+                        <p>Redacción </p>
+                        <p> | Ayer </p>
+                    </div>
+
+                    <div class="noticia-seven-container">
+                        <div class="img-noticia-seven">
+                            <img src="/images/articulos/articulo-moto.jpg" width="313px">
+                        </div>
+
+                        <div class="noticia-txt">
+                            <h5>SOSTENIBILIDAD</h5>
+                            <p>Los cultivos cerealistas en España: ¿una transformación motivada por el cambio climático?
+                            </p>
+                        </div>
+
+                        <div class="pie-noticia">
+                            <p>Ofrecido por</p>
+                            <img src="/images/logo-corteva.png" alt="Logo Corteva" width="70">
+                        </div>
+                    </div>
+        </section>
+
+        <section>
+            <div class="section-four">
+                <div class="title-section-four">
+                    <p>Te puede interesar</p>
+                    <hr>
+                </div>
+
+                <div class="apdos-section-four">
+                    <div class="meteorologia-four">
+                        <h5>METEOROLOGÍA</h5>
+                        <a href="#">Temperatura</a>
+                        <a href="#">Borrasca</a>
+                        <a href="#">Presión atmosférica</a>
+                        <a href="#">Grados Celsius</a>
+                        <a href="#">Calor</a>
+                        <a href="#">Calma</a>
+                    </div>
+
+                    <div class="cambio-climatico">
+                        <h5>CAMBIO CLIMÁTICO</h5>
+                        <a href="#">Qué es el Cambio Climático</a>
+                        <a href="#">Calentamiento Global</a>
+                        <a href="#">Efecto invernadero</a>
+                        <a href="#">Fenómeno El Niño</a>
+                        <a href="#">DANA</a>
+                        <a href="#">Clima</a>
+                    </div>
+
+                    <div class="planeta">
+                        <h5>PLANETA</h5>
+                        <a href="#">Estrellas</a>
+                        <a href="#">Estratosfera</a>
+                        <a href="#">Colores Arcoíris</a>
+                        <a href="#">Termosfera</a>
+                        <a href="#">Mesosfera</a>
+                        <a href="#">Hidrosfera</a>
+                    </div>
+
+                    <div class="viajes">
+                        <h5>VIAJES</h5>
+                        <a href="#">Semana Santa 2024</a>
+                        <a href="#">Playas de España</a>
+                        <a href="#">Playas paradisíacas</a>
+                        <a href="#">Playas de Cádiz</a>
+                        <a href="#">Playas de Almería</a>
+                        <a href="#">Playas de Málaga</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="descarga-nuestra-app">
+            <div class="descargas">
+                <p>Descarga nuestra app</p>
+                <img src="/images/google-play-desktop.webp" alt="Descarga con Google Play">
+                <img src="/images/appstore-desktop.webp" alt="Descarga con App Store">
+                <img src="/images/huawei-desktop.webp" alt="Descarga con App Gallery">
+            </div>
+
+
+            <div class="widget">
+                <p>El tiempo en tu web</p>
+                <button class="widget-btn">Añade nuestro widget</button>
+            </div>
+
+            <div class="rrss">
+                <p>Síguenos en</p>>
+                <img src="/images/icons/icon-facebook.svg" class="rrss-icons" alt="Icono de Facebook">
+                <img src="/images/icons/icon-instagram.svg" class="rrss-icons" alt="Icono de Instagram">
+                <img src="/images/icons/icon-twitter.svg" class="rrss-icons" alt="Icono de Twitter">
+                <img src="/images/icons/icon-linkedin.svg" class="rrss-icons" alt="Icono de Linkedin">
+                <img src="/images/icons/icon-spotify.svg" class="rrss-icons" alt="Icono de Spotify">
+
+            </div>
+        </div>
+
+        <div class="divisor-footer"></div>
+
+        <div class="logos-footer">
+            <img src="/images/logo-eltiempo.svg" alt="Logo El Tiempo" width="100">
+            <div class="divisor-two"></div>
+            <img src="/images/logo-pelmorex.svg" alt="Logo Palmorex" width="100">
+        </div>
+
+        <div class="links-footer">
+            <a href="#">Meteopedia</a>
+            <a href="#">Configuración y ayuda</a>
+            <a href="#">Publicidad</a>
+            <a href="#">Contacto</a>
+            <a href="#">Aviso legal</a>
+            <a href="#">Política de cookies</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Iniciar sesión/Registrarme</a>
+            <a href="#">Fotos</a>
+        </div>
+
+        <div class="divisor-footer"></div>
+
+        <div class="links-footer-two">
+            <a href="#">Weather Network</a>
+            <a href="#">Méteo Media</a>
+            <a href="#">Otempo.pt</a>
+            <a href="#">Clima.com</a>
+            <a href="#">Clima do Brasil</a>
+            <a href="#">SKIO</a>
+            <a href="#">Go Beach</a>
+            <a href="#">Weather Source</a>
+        </div>
+
+        <div class="divisor-footer"></div>
+
+        <div class="copyright">
+            <p>Eltiempo.es, Pelmorex Corp. 2024</p>
+        </div>
+    </footer>
+</body>
+
+</html>
